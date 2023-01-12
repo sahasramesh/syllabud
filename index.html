@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.2.146/build/pdf.min.js"></script>
+        
+        <title>Syllabud</title>
+    </head>
+    <body>
+        <div class="abstract">
+            Syllabud is a tool for parsing syllabi and extracting important information. Drop 
+            your syllabi as pdf files into the box below, click submit, and watch the magic happen.
+        </div>
+        <div class="droparea">
+            Drop files here
+        </div>
+        <div class="buttons">
+            <button id="submit-button">Submit</button>
+            <button id="clear-button">Clear</button>
+        </div>
+        <div id="container"></div>
+        <script src="./main.js"></script>
+    </body>
+</html>

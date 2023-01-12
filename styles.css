@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code';
+}
+
+body {
+    background-color: #091921;
+    color: white;
+    display: flexbox;
+}
+
+.abstract {
+    color: salmon;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.droparea {
+    margin: 0 auto;
+    height: 300px;
+    width: 80%;
+    border: 1px dashed gray;
+    border-radius: 20px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    padding: 40px;
+}
+
+.hover {
+    color: white;
+    border: 1px dashed white;
+}
+
+.valid {
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+}
+
+.invalid {
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+
+.buttons {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#submit-button {
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    margin: 0 auto;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+#clear-button {
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    margin: 0 auto;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
